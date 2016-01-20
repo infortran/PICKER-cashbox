@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="cl.picker.www.cashbox.ListoFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo">
+        <TextView
+            android:id="@+id/listo_txt"
+            style="@style/listo_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listo"/>
+        <TextView
+            android:id="@+id/listo_next_txt"
+            style="@style/listo_next_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listo_next"
+            android:layout_below="@id/listo_txt"/>
+        <Button
+            android:id="@+id/btn_listo_cashbox"
+            style="@style/ButtonStyle"
+            android:layout_below="@+id/listo_next_txt"
+            android:background="@drawable/onpress_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listo"/>
+    </RelativeLayout>
+
+</FrameLayout>

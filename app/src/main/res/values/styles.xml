@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="tv_nombre_picker">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/edittext_margin</item>
+        <item name="android:layout_marginRight">@dimen/edittext_margin</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="text_config_cashbox">
+        <item name="android:textSize">100sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_config_cashbox_next" parent="text_config_cashbox">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="listo_style">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">100sp</item>
+    </style>
+    <style name="listo_next_style" parent="listo_style">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="img_picker_header">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+
+    <style name="probador_string">
+        <item name="android:textSize">30dp</item>
+    </style>
+
+</resources>

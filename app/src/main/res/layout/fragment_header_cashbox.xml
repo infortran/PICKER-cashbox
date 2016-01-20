@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.cashbox.HeaderCashboxFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_header_picker"
+                style="@style/img_picker_header"
+                android:src="@drawable/picker_horiz"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cashbox"
+                android:layout_toRightOf="@+id/img_header_picker"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <Button
+                android:id="@+id/btn_ventas_cashbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ventas"
+                android:layout_marginTop="18dp"/>
+            <Button
+                android:id="@+id/btn_config_cashbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Configuracion"
+                android:layout_marginTop="18dp"
+                android:layout_toRightOf="@+id/btn_ventas_cashbox"/>
+            <Button
+                android:id="@+id/cerrar_sesion_cashbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerrar Sesión"
+                android:layout_marginTop="18dp"
+                android:layout_toRightOf="@+id/btn_config_cashbox"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

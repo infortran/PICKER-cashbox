@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.cashbox.ConfigCashboxFragment">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo">
+        <TextView
+            android:id="@+id/text_config_cashbox"
+            style="@style/text_config_cashbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_config_cashbox"/>
+        <TextView
+            android:id="@+id/text_config_cashbox_next"
+            style="@style/text_config_cashbox_next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_config_cashbox_next"
+            android:layout_below="@+id/text_config_cashbox"/>
+        <EditText
+            android:id="@+id/id_tienda_cashbox"
+            style="@style/EditTextStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_config_cashbox_next"
+            android:drawableLeft="@drawable/tienda"
+            android:hint="@string/tienda_edit_text"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@drawable/onpress_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tienda_cashbox"
+            android:text="@string/btn_asociar"/>
+    </RelativeLayout>
+
+</FrameLayout>

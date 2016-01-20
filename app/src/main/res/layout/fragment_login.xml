@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="cl.picker.www.cashbox.LoginFragment">
+
+    <RelativeLayout
+        android:id="@+id/login_fragment_relative_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo">
+        <ImageView
+            android:id="@+id/img_logo_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:id="@+id/txt_nombre_picker"
+            android:layout_below="@+id/img_logo_picker"
+            style="@style/tv_nombre_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_picker"/>
+
+        <EditText
+            android:id="@+id/email_login_cashbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
+            android:drawableLeft="@drawable/arroba"
+            android:layout_below="@+id/txt_nombre_picker"
+            android:hint="@string/email_edit_text"
+            />
+
+        <EditText
+            android:id="@+id/pass_login_cashbox"
+            style="@style/EditTextStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_login_cashbox"
+            android:drawableLeft="@drawable/lock"
+            android:hint="@string/pass_edit_text"/>
+        <Button
+            android:id="@+id/btn_login_cashbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:background="@drawable/onpress_button"
+            android:text="@string/text_login_button"
+            android:layout_below="@+id/pass_login_cashbox"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

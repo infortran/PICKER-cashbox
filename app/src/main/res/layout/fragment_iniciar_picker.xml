@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.cashbox.iniciarPickerFragment"
+    android:background="#FFFFFF">
+
+    <!--CONTENEDOR-->
+
+
+
+            <!--HEADER-->
+            <RelativeLayout
+                android:id="@+id/header_probador_en_uso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                >
+                <TextView
+                    android:id="@+id/probador_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Probador"
+                    android:textSize="45sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"/>
+                <TextView
+                    android:id="@+id/numero_probador_init_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X"
+                    android:textSize="45sp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/probador_word"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/id_probador_init_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_centerVertical="true"
+                    android:text="PRO000"
+                    android:layout_toRightOf="@id/numero_probador_init_picker"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+        <!--FOOTER-->
+        <RelativeLayout
+            android:id="@+id/footer_probador_en_uso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+            <Button
+                android:id="@+id/btn_agregar_por_caja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/onpress_button"
+                android:layout_margin="20dp"
+                android:padding="5dp"
+                android:text="@string/btn_probador_agregar_por_caja"
+                android:textColor="#FFFFFF"/>
+            <Button
+                android:id="@+id/btn_finalizar_venta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/onpress_green_button"
+                android:layout_margin="20dp"
+                android:padding="5dp"
+                android:text="@string/btn_finalizar_venta"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+        <!--DINAMIC CONTAINER-->
+            <RelativeLayout
+                android:background="#f1f0f3"
+                android:id="@+id/container_dinamic_probador_en_uso"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/header_probador_en_uso"
+                android:layout_above="@+id/footer_probador_en_uso">
+
+                    <ListView
+                        android:id="@+id/lista_productos_por_probador"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </ListView>
+
+
+            </RelativeLayout>
+
+
+
+</RelativeLayout>

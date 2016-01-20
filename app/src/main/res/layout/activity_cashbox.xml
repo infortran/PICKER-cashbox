@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.picker.www.cashbox.CashboxActivity">
+
+    <!--CABECERA-->
+    <RelativeLayout
+        android:id="@+id/header_cashbox_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:name="cl.picker.www.cashbox.HeaderCashboxFragment"
+            tools:layout="@layout/fragment_header_cashbox">
+
+        </fragment>
+    </RelativeLayout>
+
+    <!--CUERPO-->
+    <RelativeLayout
+        android:id="@+id/cuerpo_dinamico"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_cashbox_layout">
+
+    </RelativeLayout>
+
+</RelativeLayout>

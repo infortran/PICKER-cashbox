@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Cashbox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="volver">Volver</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="nombre_picker">Cashbox</string>
+    <string name="email_edit_text">Correo electrónico</string>
+    <string name="pass_edit_text">Contraseña</string>
+    <string name="text_login_button">Ingresar</string>
+    <string name="text_config_cashbox">Asociar tu PICKER</string>
+    <string name="text_config_cashbox_next">Ingresa el ID de la tienda para terminar de asociar tu PICKER</string>
+    <string name="listo">Listo</string>
+    <string name="listo_next">Confirme la información para terminar</string>
+    <string name="tienda_edit_text">ID de la tienda</string>
+    <string name="btn_asociar">Asociar</string>
+    <string name="title_activity_cashbox">CashboxActivity</string>
+    <string name="cashbox">Cashbox</string>
+
+    <string name="probador_string">Probador</string>
+
+    <string name="dialog_text_init_picker">Desea activar este probador?</string>
+
+    <string name="dialog_close_text">Esta seguro que desea salir?</string>
+    <string name="dialog_close_text_2">Al salir se cerrará la sesión activa</string>
+
+    <string name="btn_probador_agregar_por_caja">Agregar por caja</string>
+    <string name="btn_finalizar_venta">Finalizar Venta</string>
+
+    <string name="dialog_finalizar_venta">Esta seguro que desea finalizar la venta?</string>
+    <string name="dialog_finalizar_venta_2">Al finalizar la venta los datos serán almacenados en el sistema y el Picker quedara libre</string>
+
+    <string name="dialog_agregar_sku">Ingrese el SKU del producto y la cantidad para continuar</string>
+    <string name="sku_producto">SKU Producto</string>
+    <string name="cantidad">Cantidad</string>
+</resources>
